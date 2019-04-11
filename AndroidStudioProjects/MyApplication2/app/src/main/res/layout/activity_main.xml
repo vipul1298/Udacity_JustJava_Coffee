@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout>
+     <TextView
+        layout_width="20"
+        layout_height="20"/>
+</LinearLayout>

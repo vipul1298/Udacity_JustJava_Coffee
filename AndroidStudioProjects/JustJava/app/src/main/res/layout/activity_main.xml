@@ -24,12 +24,12 @@
 
       />
   <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+
       android:text="Topping"
-      android:textSize="35sp"
       android:textColor="#fff"
-      android:padding="10dp"/>
+      android:padding="10dp"
+      style="@style/HeaderTextStyle"
+      />
   <LinearLayout
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -78,14 +78,13 @@
 
   </LinearLayout>
   <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+
       android:text="Quantity"
       android:textColor="@android:color/primary_text_dark"
-      android:textSize="30sp"
-      android:textAllCaps="true"
+
       android:layout_marginLeft="10dp"
-      android:layout_marginBottom="16dp"/>
+      android:layout_marginBottom="16dp"
+      style="@style/HeaderTextStyle"/>
 
 
   <LinearLayout
@@ -118,24 +117,7 @@
 
   </LinearLayout>
 
-  <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="15dp"
-      android:text="ORDER SUMMARY"
-      android:textColor="@android:color/white"
-      android:textSize="25sp"
-      android:layout_marginTop="16dp"
-      />
-  <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="15dp"
-      android:text="$0"
-      android:id="@+id/order_summary_text_view"
-      android:textColor="@android:color/white"
-      android:layout_marginTop="16dp"
-      android:textSize="25sp"/>
+
 
   <Button
         android:layout_width="wrap_content"
